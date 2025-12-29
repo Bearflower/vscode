@@ -1,0 +1,5 @@
+# 进入脚本所在目录
+cd /Users/yl/vscode/bianace_newtrade_notice/
+
+# 执行打包命令
+python3 -m PyInstaller --onefile --name binance_monitor sd.py
