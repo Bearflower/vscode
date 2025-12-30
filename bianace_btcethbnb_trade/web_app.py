@@ -136,4 +136,4 @@ def api_screenshot(filename):
     return send_from_directory(SCREENSHOT_DIR, filename)
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run(debug=True, host='0.0.0.0', port=5001)
